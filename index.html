@@ -4,47 +4,184 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Emergency Plumber Des Moines – 24/7 Help</title>
-  <meta name="description" content="Emergency plumber in Des Moines. 24/7 help for plumbing emergencies. Call now for immediate assistance." />
+  <meta name="description" content="Emergency plumber in Des Moines. 24/7 help for burst pipes, flooding, no hot water, and sewer backups. Call now for immediate assistance." />
+
   <style>
-    body{font-family:Arial,sans-serif;margin:0;padding:20px;background:#fff;color:#000}
-    .container{max-width:600px;margin:0 auto}
-    h1{font-size:28px;margin:0 0 10px}
-    p{font-size:16px;line-height:1.5}
-    .cta{display:block;width:100%;padding:15px;margin:15px 0;background:#000;color:#fff;text-align:center;text-decoration:none;font-size:18px;border-radius:4px}
-    ul{padding-left:20px}
-    footer{font-size:12px;color:#555;margin-top:20px}
+    :root{
+      --text:#0b0b0b;
+      --muted:#4a4a4a;
+      --border:#e9e9e9;
+      --bg:#ffffff;
+      --cta:#0b0b0b;
+      --ctaText:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      line-height:1.45;
+    }
+    .wrap{
+      max-width:720px;
+      margin:0 auto;
+      padding:20px;
+    }
+    .hero{
+      padding:10px 0 16px;
+      border-bottom:1px solid var(--border);
+    }
+    h1{
+      margin:0 0 8px;
+      font-size:28px;
+      letter-spacing:-0.2px;
+      line-height:1.15;
+    }
+    .subhead{
+      margin:0 0 14px;
+      font-size:15px;
+      color:var(--muted);
+      font-weight:700;
+    }
+
+    /* TOP CTA (above the fold) */
+    .phoneRow{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin:14px 0 10px;
+    }
+    .callNowText{
+      font-size:18px;
+      font-weight:900;
+      letter-spacing:0.1px;
+    }
+    .callNowText a{
+      color:inherit;
+      text-decoration:none;
+      font-weight:900;
+    }
+    .ctaBtn{
+      display:block;
+      width:100%;
+      text-align:center;
+      padding:14px 16px;
+      background:var(--cta);
+      color:var(--ctaText);
+      text-decoration:none;
+      font-size:16px;
+      font-weight:900;
+      border-radius:8px;
+    }
+
+    /* Trust scaffolding (one line only) */
+    .trustLine{
+      margin:10px 0 0;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .section{
+      padding:16px 0;
+    }
+    .h2{
+      margin:0 0 8px;
+      font-size:18px;
+      letter-spacing:-0.1px;
+    }
+    p{
+      margin:10px 0;
+      color:var(--text);
+      font-size:15px;
+    }
+
+    /* CTA strips (mid + bottom) */
+    .ctaStrip{
+      margin:14px 0 0;
+      padding:14px;
+      border:1px solid var(--border);
+      border-radius:10px;
+      background:#fafafa;
+    }
+    .ctaStrip .callNowText{font-size:16px}
+    .ctaStrip .ctaBtn{margin-top:10px}
+
+    footer{
+      margin:18px 0 0;
+      padding-top:14px;
+      border-top:1px solid var(--border);
+      font-size:12px;
+      color:var(--muted);
+    }
+
+    @media (min-width:640px){
+      .phoneRow{
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+        gap:14px;
+      }
+      .ctaBtn{
+        width:auto;
+        padding:14px 18px;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Emergency Plumber in Des Moines — 24/7 Emergency Help</h1>
+  <div class="wrap">
 
-    <p>We connect Des Moines homeowners with licensed emergency plumbers who can stop water damage fast.</p>
+    <!-- HERO: Mobile-first, conversion-first -->
+    <div class="hero">
+      <h1>Emergency Plumber in Des Moines</h1>
+      <p class="subhead">Common plumbing emergencies: Burst Pipes • Flooding • No Hot Water • Sewer Backups</p>
 
-    <a class="cta" href="tel:+15154284261">Call Now for Immediate Help</a>
+      <!-- TOP CTA (above fold): phone text + button -->
+      <div class="phoneRow">
+        <div class="callNowText">
+          Call Now: <a href="tel:+15154284261">(515) 428-4261</a>
+        </div>
+        <a class="ctaBtn" href="tel:+15154284261">Call Now – 24/7 Emergency Help</a>
+      </div>
 
-    <p><strong>📞 (515) 428-4261</strong></p>
+      <!-- Trust scaffolding (one line only) -->
+      <p class="trustLine">Calls routed to available local plumbers in Des Moines.</p>
+    </div>
 
-    <h2>Available 24/7 • Fast Local Response</h2>
-    <ul>
-      <li>Immediate response from local emergency plumbers</li>
-      <li>Licensed & insured professionals</li>
-      <li>No obligation to proceed</li>
-    </ul>
+    <!-- SUPPORTING COPY -->
+    <div class="section">
+      <div class="h2">Fast local response</div>
+      <p>
+        Plumbing emergencies can cause serious water damage in minutes. If you’re dealing with flooding, leaks,
+        sewer backups, no hot water, or sudden loss of water pressure, immediate professional help is critical.
+      </p>
 
-    <p>
-      Plumbing emergencies can cause serious water damage in minutes. If you’re dealing with flooding, leaks, sewer backups,
-      no hot water, or sudden loss of water pressure, immediate professional help is critical.
-    </p>
+      <!-- MID CTA STRIP (2nd call opportunity) -->
+      <div class="ctaStrip">
+        <div class="callNowText">
+          Call Now: <a href="tel:+15154284261">(515) 428-4261</a>
+        </div>
+        <a class="ctaBtn" href="tel:+15154284261">Call for Immediate Help</a>
+      </div>
+    </div>
 
-    <p>
-      We help Des Moines residents quickly connect with licensed emergency plumbers who are equipped to diagnose and resolve
-      urgent plumbing issues and limit further damage.
-    </p>
+    <!-- BOTTOM CTA STRIP (3rd call opportunity) -->
+    <div class="section">
+      <div class="ctaStrip">
+        <div class="callNowText">
+          Call Now: <a href="tel:+15154284261">(515) 428-4261</a>
+        </div>
+        <a class="ctaBtn" href="tel:+15154284261">Call Now – Fast Local Response</a>
+      </div>
+    </div>
 
+    <!-- FOOTER DISCLOSURE -->
     <footer>
-      This website is a referral service. We do not provide plumbing services directly. All services are provided by independent, licensed professionals.
+      This website is a referral service. We do not provide plumbing services directly. All services are provided by independent professionals.
     </footer>
+
   </div>
 </body>
 </html>
